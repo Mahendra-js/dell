@@ -13,7 +13,7 @@ spec:
         image: nginx
         ports:
         - containerPort: 80
-  replicas: 3
+  replicas: 6
   selector:
     matchLabels:
       app: ibm1
